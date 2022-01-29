@@ -1,0 +1,169 @@
+:root {
+  --primary-bg-color: #ffffff;
+  --primary-text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --atl-bg-color: #2f303a;
+  --team-bg-color: #f5f4fa;
+}
+
+/* Студия */
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+ul li {
+  list-style-type: none;
+}
+
+/* Шапка сайта */
+
+header {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
+.logo-top {
+  color: var(--title-color);
+}
+
+.logo-top span {
+  color: var(--accent-color);
+}
+
+.list .link {
+  color: var(--title-color);
+}
+
+.link.current {
+  color: var(--accent-color);
+}
+
+.list .link:hover,
+.list .link:focus {
+  color: var(--accent-color);
+}
+
+.contact-list .link {
+  color: var(--primary-text-color);
+}
+
+.contact-list .link:hover,
+.contact-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* Основной контент сайта */
+
+/* Герой */
+
+.hero {
+  background-color: var(--atl-bg-color);
+  color: var(--white-color);
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/* Преимущества компании */
+
+.advantages {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.advantages .title {
+  display: none;
+}
+
+.subtitle {
+  color: var(--title-color);
+}
+
+/* Чем мы занимаемся */
+
+.company {
+  background-color: var(--primary-bg-color);
+}
+
+.company .title {
+  color: var(--title-color);
+}
+
+/* Наша команда */
+
+.team {
+  background-color: var(--team-bg-color);
+  color: var(--primary-text-color);
+}
+
+.team .title {
+  color: var(--title-color);
+}
+
+.card-name {
+  color: var(--title-color);
+}
+
+/* Подвал */
+
+footer {
+  background-color: var(--atl-bg-color);
+  color: var(--white-color);
+}
+
+.logo-bot {
+  color: var(--white-color);
+}
+
+.logo-bot span {
+  color: var(--accent-color);
+}
+
+.address-list .text {
+  color: var(--white-color);
+}
+
+.address-list .link {
+  color: var(--primary-text-color);
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* Портфолио */
+
+.portfolio {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.portfolio .title {
+  display: none;
+}
+
+.filter-button {
+  background-color: var(--team-bg-color);
+  color: var(--title-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.portfolio h2 {
+  color: var(--title-color);
+}
+
+.portfolio p {
+  color: var(--primary-text-color);
+}
