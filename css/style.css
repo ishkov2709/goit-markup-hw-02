@@ -1,49 +1,42 @@
 :root {
-  --primary-bg-color: #ffffff;
+  --primary-white-color: #ffffff;
+  --primary-title-colot: #212121;
   --primary-text-color: #757575;
-  --title-color: #212121;
   --accent-color: #2196f3;
-  --white-color: #ffffff;
-  --atl-bg-color: #2f303a;
-  --team-bg-color: #f5f4fa;
+  --alternative-bg-color: #f5f4fa;
+  --hero-bg-color: #2f303a;
+  --bottom-link-color: rgba(255, 255, 255, 0.6);
 }
-
-/* Студия */
 
 body {
-  background-color: var(--primary-bg-color);
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
 
-ul li {
-  list-style-type: none;
+li {
+  list-style: none;
 }
 
-/* Шапка сайта */
+/* Site Header */
 
-header {
-  background-color: var(--white-color);
-  color: var(--primary-text-color);
+header > .logo {
+  color: var(--primary-title-colot);
 }
 
-.logo-top {
-  color: var(--title-color);
-}
-
-.logo-top span {
+.logo > span {
   color: var(--accent-color);
 }
 
-.list .link {
-  color: var(--title-color);
+.nav-list .link {
+  color: var(--primary-title-colot);
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--accent-color);
 }
 
 .link.current {
-  color: var(--accent-color);
-}
-
-.list .link:hover,
-.list .link:focus {
   color: var(--accent-color);
 }
 
@@ -56,114 +49,87 @@ header {
   color: var(--accent-color);
 }
 
-/* Основной контент сайта */
-
-/* Герой */
+/* Hero */
 
 .hero {
-  background-color: var(--atl-bg-color);
-  color: var(--white-color);
+  background-color: var(--hero-bg-color);
 }
 
-.button {
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+.hero .button {
   background-color: var(--accent-color);
-  color: var(--white-color);
+  color: var(--primary-white-color);
 }
 
 /* Преимущества компании */
 
-.advantages {
-  background-color: var(--primary-bg-color);
-  color: var(--primary-text-color);
+.section .title {
+  color: var(--primary-title-colot);
 }
 
-.advantages .title {
+.hidden {
   display: none;
 }
 
 .subtitle {
-  color: var(--title-color);
+    color: var(--primary-title-colot);
 }
 
-/* Чем мы занимаемся */
+/* Команда */
 
-.company {
-  background-color: var(--primary-bg-color);
+.section.team {
+    background-color: var(--alternative-bg-color);
 }
 
-.company .title {
-  color: var(--title-color);
+.name {
+  color: var(--primary-title-colot);
 }
 
-/* Наша команда */
 
-.team {
-  background-color: var(--team-bg-color);
-  color: var(--primary-text-color);
+.profession {
+  color: var(--primary-title-colot));
 }
 
-.team .title {
-  color: var(--title-color);
-}
-
-.card-name {
-  color: var(--title-color);
-}
-
-/* Подвал */
+/* Footer */
 
 footer {
-  background-color: var(--atl-bg-color);
-  color: var(--white-color);
+    background-color: var(--hero-bg-color);
+    color: var(--primary-white-color);
 }
 
-.logo-bot {
-  color: var(--white-color);
+footer > .logo {
+    color: var(--primary-white-color);
 }
 
-.logo-bot span {
-  color: var(--accent-color);
-}
-
-.address-list .text {
-  color: var(--white-color);
+.logo > span {
+    color: var(--accent-color);
 }
 
 .address-list .link {
-  color: var(--primary-text-color);
+    color: var(--bottom-link-color);
 }
 
 .address-list .link:hover,
 .address-list .link:focus {
-  color: var(--accent-color);
+    color: var(--accent-color);
 }
 
-/* Портфолио */
+/* Portfolio */
 
-.portfolio {
-  background-color: var(--primary-bg-color);
-  color: var(--primary-text-color);
+.filter-list .button {
+    background-color: var(--alternative-bg-color);
+    color: var(--primary-title-colot);
 }
 
-.portfolio .title {
-  display: none;
+.filter-list .button:hover,
+.filter-list .button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
 }
 
-.filter-button {
-  background-color: var(--team-bg-color);
-  color: var(--title-color);
-}
-
-.filter-button:hover,
-.filter-button:focus {
-  background-color: var(--accent-color);
-  color: var(--white-color);
-}
-
-.portfolio h2 {
-  color: var(--title-color);
-}
-
-.portfolio p {
-  color: var(--primary-text-color);
+.project-list .type  {
+    color: var(--primary-text-color);
 }
