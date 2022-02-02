@@ -114,9 +114,7 @@ li {
   text-align: center;
 }
 
-.hidden {
-  display: none;
-}
+.hidden
 
 .subtitle {
   color: var(--primary-title-colot);
