@@ -1,6 +1,6 @@
 :root {
   --primary-white-color: #ffffff;
-  --primary-title-colot: #212121;
+  --primary-title-color: #212121;
   --primary-text-color: #757575;
   --accent-color: #2196f3;
   --alternative-bg-color: #f5f4fa;
@@ -27,7 +27,7 @@ li {
 /* Site Header */
 
 .logo {
-  color: var(--primary-title-colot);
+  color: var(--primary-title-color);
   text-decoration: none;
 
   font-family: 'Raleway', sans-serif;
@@ -43,7 +43,7 @@ li {
 
 .nav-list .link,
 .contact-list .link {
-  color: var(--primary-title-colot);
+  color: var(--primary-title-color);
 
   font-weight: 500;
   font-size: 14px;
@@ -106,7 +106,7 @@ li {
 /* Преимущества компании */
 
 .section .title {
-  color: var(--primary-title-colot);
+  color: var(--primary-title-color);
 
   font-weight: 700;
   font-size: 36px;
@@ -114,10 +114,11 @@ li {
   text-align: center;
 }
 
-.hidden
+.hidden {
+}
 
 .subtitle {
-  color: var(--primary-title-colot);
+  color: var(--primary-title-color);
 
   font-weight: 700;
   font-size: 14px;
@@ -132,7 +133,7 @@ li {
 
 .name,
 .profession {
-  color: var(--primary-title-colot);
+  color: var(--primary-title-color);
 
   font-weight: 500;
   font-size: 16px;
@@ -179,7 +180,7 @@ footer {
 
 .filter-list .button {
   background-color: var(--alternative-bg-color);
-  color: var(--primary-title-colot);
+  color: var(--primary-title-color);
 
   font-weight: 500;
   font-size: 16px;
