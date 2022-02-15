@@ -157,18 +157,20 @@ footer {
   color: var(--primary-white-color);
 }
 
-.address-list .text,
 .address-list .link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  color: var(--bottom-link-color);
+
+  text-decoration: none;
 }
 
-.address-list .link {
-  color: var(--bottom-link-color);
-  text-decoration: none;
+.address-list .destination.link {
+  color: var(--primary-white-color);
 }
 
 .address-list .link:hover,
