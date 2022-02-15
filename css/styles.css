@@ -46,7 +46,6 @@ li {
   color: var(--primary-title-color);
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -91,6 +90,8 @@ li {
 .button {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
 
 .hero .button {
@@ -123,6 +124,7 @@ li {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* Команда */
@@ -131,19 +133,20 @@ li {
   background-color: var(--alternative-bg-color);
 }
 
+.name {
+  font-weight: 500;
+}
+
 .name,
 .profession {
   color: var(--primary-title-color);
 
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
 
 .profession {
   color: var(--primary-text-color);
-
-  font-weight: 400;
 }
 
 /* Footer */
@@ -159,10 +162,6 @@ footer {
 
 .address-list .link {
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 
   color: var(--bottom-link-color);
 
@@ -209,7 +208,6 @@ footer {
 .project-list .type {
   color: var(--primary-text-color);
 
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
